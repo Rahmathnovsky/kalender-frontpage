@@ -77,7 +77,8 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <!-- <li><a href="#hero" class="active">Home<br></a></li> -->
-          <li><a href="{{ route('registration-form') }}">Daftar Form</a></li>
+          <a class="btn-getstarted flex-md-shrink-0" href="{{ route('registration-form') }}">Daftar</a>
+          {{-- <li><a class="btn-getstarted" href="{{ route('registration-form') }}">Daftar</a></li> --}}
           <!-- <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
@@ -133,7 +134,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted flex-md-shrink-0" data-bs-toggle="modal" data-bs-target="#enableOTP">Daftar Telepon</a>
+      {{-- <a class="btn-getstarted flex-md-shrink-0" data-bs-toggle="modal" data-bs-target="#enableOTP">Daftar Telepon</a> --}}
 
     </div>
   </header>
@@ -147,9 +148,10 @@
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1 data-aos="fade-up"><a style="color: #4154f1;">KA</a>lapa <a style="color: #4154f1;">LE</a>arning <a style="color: #4154f1;">&</a> <a style="color: #4154f1;">D</a>evelopment Cent<a style="color: #4154f1;">ER</a></h1>
-            <p data-aos="fade-up" data-aos-delay="100" style="color: #223a66;">Membantu memberdayakan individu yang berkualitas melalui transformasi pembelajaran serta pengembangan suatu komunitas demi menciptakan keterampilan individu yang berkualitas dan relevan bagi kebutuhan di dunia pekerjaan</p>
+            <p data-aos="fade-up" data-aos-delay="100" style="color: #223a66;">Tingkatkan potensi dan raih kesuksesan bersama KALENDER melalui program pelatihan yang disediakan serta didukung oleh para expert. KALENDER membantu persiapanmu dalam dunia pekerjaan yang profesional.</p>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
-              <a data-bs-toggle="modal" data-bs-target="#enableOTP" class="btn-get-started">Cek KALENDER Yuk! <i class="bi bi-arrow-right"></i></a>
+              <a data-bs-toggle="modal" data-bs-target="#enableOTP" class="btn-get-started">Cek KALENDER Kamu Yuk</a>
+              {{-- <i class="bi bi-arrow-right"></i> --}}
               <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
 
@@ -203,7 +205,7 @@
 
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-            <img src="assets/img/gif/dashboard.gif" class="img-fluid animated" alt="">
+            <img src="assets/img/vector/dashboard.png" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>
@@ -215,39 +217,61 @@
             <div class="feature-block d-lg-flex">
               <div class="feature-item mb-5 mb-lg-0">
                 <div class="feature-icon mb-4">
-                  <img src="assets/img/vector/appointment.png" style="width: 150px;" alt="">
+                  <img src="assets/img/vector/b.png" style="width: 300px;" alt="">
                   <!-- <i class="icofont-surgeon-alt"></i> -->
                 </div>
-                <span>24 Hours Service</span>
-                <h4 class="mb-3">Online Appoinment</h4>
-                <p class="mb-4">Hallo para Kalender’s, terus pantau dan perhatikan terus batch KALENDER yang akan kita buka ya!</p>
-                <a data-bs-toggle="modal" data-bs-target="#enableOTP" class="btn btn-main btn-round-full">Make a appoinment</a>
+                <center><strong><h4 style="color: #223a66;">Bangun Masa Depan <br>Mulai Dari Kenali Diri Sendiri</h4></strong>
+                <p class="mb-4">Belajar pahami diri sendiri untuk membangun personal branding kamu</p>
+                <h5 class="mb-3 text-dark" style="margin-top: -10px;">Senin, 16 Sept 2024. Yogyakarta</h5>
+                <a data-bs-toggle="modal" data-bs-target="#" class="btn btn-main btn-round-full" style="margin-bottom: -40px;">Daftar Kelas</a></center>
               </div>
 
               <div class="feature-item mb-5 mb-lg-0">
                 <div class="feature-icon mb-4">
-                  <img src="assets/img/vector/board.png" style="width: 150px;" alt="">
+                  <img src="assets/img/vector/c.png" style="width: 300px;" alt="">
                   <!-- <i class="icofont-ui-clock"></i> -->
                 </div>
-                <span>Time Schedule</span>
-                <h4 class="mb-3">Available Class</h4>
+                <center><h4>Interview dengan Percaya Diri</h4>
+                    <br>
+                <p class="mb-3">Kunci untuk membuat kesan yang baik saat menjalani proses interview</p>
                 <ul class="w-hours list-unstyled">
-                  <li class="d-flex justify-content-between">Sun - Wed : <span>8:00 - 17:00</span></li>
+                <h5 class="mb-3 text-dark">Segera Hadir</h5>
+                {{-- <p class="mb-4">Interview</p> --}}
+                    <a data-bs-toggle="modal" data-bs-target="#" class="btn btn-main btn-round-full" style="margin-bottom: -40px;">Daftar Kelas</a></center>
+                  {{-- <li class="d-flex justify-content-between">Sun - Wed : <span>8:00 - 17:00</span></li>
                   <li class="d-flex justify-content-between">Thu - Fri : <span>9:00 - 17:00</span></li>
-                  <li class="d-flex justify-content-between">Sat - sun : <span>10:00 - 17:00</span></li>
+                  <li class="d-flex justify-content-between">Sat - sun : <span>10:00 - 17:00</span></li> --}}
                 </ul>
               </div>
 
               <div class="feature-item mb-5 mb-lg-0">
                 <div class="feature-icon mb-4">
-                  <img src="assets/img/vector/support.png" style="width: 150px;" alt="">
+                  <img src="assets/img/vector/c.png" style="width: 300px;" alt="">
+                  <!-- <i class="icofont-ui-clock"></i> -->
+                </div>
+                <center><h4>Semua Bisa Jadi IT</h4>
+                    <br>
+                <p class="mb-3">Belajar membuat Website <br> mulai dari nol</p>
+                <ul class="w-hours list-unstyled">
+                    <h5 class="mb-3 text-dark">Segera Hadir</h5>
+                {{-- <p class="mb-4">Interview</p> --}}
+                    <a data-bs-toggle="modal" data-bs-target="#" class="btn btn-main btn-round-full" style="margin-bottom: -40px;">Daftar Kelas</a></center>
+                  {{-- <li class="d-flex justify-content-between">Sun - Wed : <span>8:00 - 17:00</span></li>
+                  <li class="d-flex justify-content-between">Thu - Fri : <span>9:00 - 17:00</span></li>
+                  <li class="d-flex justify-content-between">Sat - sun : <span>10:00 - 17:00</span></li> --}}
+                </ul>
+              </div>
+
+              {{-- <div class="feature-item mb-5 mb-lg-0">
+                <div class="feature-icon mb-4">
+                  <img src="assets/img/vector/b.png" style="width: 300px;" alt="">
                   <!-- <i class="icofont-support"></i> -->
                 </div>
-                <span>Customer Support</span>
+                <center><span>Ngobrol Sama ALEN</span>
                 <h4 class="mb-3">+62 813 8499 5069</h4>
-                <p>Walaupun kita terbatas dengan jarak, bantuan mimin KALENDER hanya sejarak panggilan telepon aja
-                loh! Jadi tunggu apalagi segera hubungi mimin KALENDER yuk!</p>
-              </div>
+                <p>Walaupun kita terbatas dengan jarak, bantuan ALEN hanya sejarak panggilan telepon aja
+                loh! Jadi tunggu apalagi segera hubungi ALEN yuk!</p></center>
+              </div> --}}
             </div>
           </div>
         </div>
@@ -301,25 +325,25 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card" data-bs-toggle="modal" data-bs-target="#classONE">
-              <img src="assets/img/studies/great-leader.png" class="img-fluid" alt="">
-              <h3>To Be a Great Leader</h3>
-              <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+                <img src="assets/img/vector/d.png" style="width: 300px;" alt="">
+              <h3>7 Hal yang Kamu Perlu Miliki Sebelum Memulai Karir</h3>
+              <p>Masih bingung dengan persiapan karir mu?  Yuk kita kenali apa saja yang perlu kita bangun untuk langkah awal memasuki dunia kerja!</p>
             </div>
           </div>
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card" data-bs-toggle="modal" data-bs-target="#classTWO">
-              <img src="assets/img/studies/good-management.png" class="img-fluid" alt="">
-              <h3>Be Amazing Team</h3>
-              <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+                <img src="assets/img/vector/e.png" style="width: 300px;" alt="">
+              <h3>Cara membuat CV yang baik dan benar</h3>
+              <p>Sebelum para Kalender’s melamar pekerjaan ke suatu perusahaan pasti para Kalender’s sangat memerlukan persiapan-persiapan yang penting & Berikut Tips untuk..</p>
             </div>
           </div>
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card" data-bs-toggle="modal" data-bs-target="#classTHREE">
-              <img src="assets/img/studies/hard-soft-skill.png" class="img-fluid" alt="">
-              <h3>Soft & Hard Skills</h3>
-              <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                <img src="assets/img/vector/f.png" style="width: 300px;" alt="">
+              <h3>Cara terbaik melakukan Personal Branding pada LINKEDIN </h3>
+              <p>Mayoritas para pecari kerja pasti menggunakan job portal untuk medianya.  Bagaimana kita dapat menjadi paling terlihat..</p>
             </div>
           </div>
 
