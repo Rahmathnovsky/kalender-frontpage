@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\PhoneNumber;
 use App\Models\FormRegistration;
 use Illuminate\Support\Facades\DB;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class WebsiteController extends Controller
 {
@@ -20,9 +21,12 @@ class WebsiteController extends Controller
             DB::beginTransaction();
             PhoneNumber::create($request->all());
             DB::commit();
+            Alert::success('Success', 'Post created successfully');
             return redirect()->back();
         } catch(\Throwable $th){
             DB::rollback();
+            Alert::error('Error', 'Failed to create post');
+            return redirect()->back();
         }
     }
 
