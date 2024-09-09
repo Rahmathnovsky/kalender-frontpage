@@ -76,7 +76,7 @@
             <div class="feature-block d-lg-flex">
               <div class="feature-item mb-5 mb-lg-0">
                 <div class="feature-icon mb-4">
-                  <img src="assets/img/vector/b.png" style="width: 300px;" alt="">
+                  <img src="assets/img/vector/d.png" style="width: 300px;" alt="">
                   <!-- <i class="icofont-surgeon-alt"></i> -->
                 </div>
                 <center><strong><h4 style="color: #205299;">Bangun Masa Depan <br>Mulai Dari Kenali Diri Sendiri</h4></strong>
@@ -99,7 +99,7 @@
 
               <div class="feature-item mb-5 mb-lg-0">
                 <div class="feature-icon mb-4">
-                  <img src="assets/img/vector/c.png" style="width: 300px;" alt="">
+                  <img src="assets/img/vector/b.png" style="width: 300px;" alt="">
                   <!-- <i class="icofont-ui-clock"></i> -->
                 </div>
                 <center><h4 style="color: #205299;">Semua Bisa Jadi IT</h4>
