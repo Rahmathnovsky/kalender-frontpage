@@ -41,7 +41,7 @@
   <button class="open-button">
     <row>
         <col><a href="https://api.whatsapp.com/send?phone=6281299995925&text=Halo,%20ALEN!">
-          <img src="assets/img/logo/wa-logo-1.png" alt="" width="60%" style="margin-left: 60%; margin-top: -80%;"></a>
+          <img src="assets/img/logo/wa-logo-1.png" alt="" width="70%" style="margin-left: 40%; margin-top: -60%;"></a>
         </coll>
     </row>
     <!-- <row >
@@ -171,19 +171,19 @@
             <span class="sitename" style="color: #F6CD1E;">KALENDER</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>Menara Rajawali Lt.10, Setiabudi,<br>
+            <p style="color: #205299;">Menara Rajawali Lt.10, Setiabudi,<br>
               Jakarta Selatan, DKI Jakarta, Indonesia.</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+62 813 8499 5069</span></p>
-            <p><strong>Email:</strong> <span>recruitment@kalapatec.id</span></p>
-            <p><strong>Email:</strong> <span>bd.team@kalapatec.id</span></p>
+            <p style="color: #205299;"><strong style="color: #F6CD1E;">Phone:</strong> <span>+62 813 8499 5069</span></p>
+            <p style="color: #205299;"><strong style="color: #F6CD1E;">Email:</strong> <span>recruitment@kalapatec.id</span></p>
+            <p style="color: #205299;"><strong style="color: #F6CD1E;">Email:</strong> <span>bd.team@kalapatec.id</span></p>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4 style="color: #F6CD1E;">Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy Policy</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms & Conditions</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" style="color: #205299;">Privacy Policy</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" style="color: #205299;">Terms & Conditions</a></li>
           </ul>
         </div>
 
@@ -198,7 +198,7 @@
 
         <div class="col-lg-4 col-md-12">
           <h4 style="color: #F6CD1E;">Follow Us</h4>
-          <p>KALENDER Merupakan program learning & development yang dikembangkan oleh PT. Kalapa Teknologi Putera. Untuk Informasi lebih lanjut langsung Follow dan Pantengin Social Media kita yaa!</p>
+          <p style="color: #205299;">KALENDER Merupakan program learning & development yang dikembangkan oleh PT. Kalapa Teknologi Putera. Untuk Informasi lebih lanjut langsung Follow dan Pantengin Social Media kita yaa!</p>
           <div class="social-links d-flex">
             <a href="https://www.instagram.com/kalapatec.id"><i class="bi bi-instagram"></i></a>
             <a href="https://facebook.com/kalapatec.id"><i class="bi bi-facebook"></i></a>
@@ -210,13 +210,13 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename" style="color: #F6CD1E;">KALENDER</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright 2024</span> <strong class="px-1 sitename" style="color: #F6CD1E;">KALENDER</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Business by <a href="https://Kalapatec.id/">Kalapa Technology</a>
+        Business by <a href="https://Kalapatec.id/" style="color: #205299;">KALAPA TECHNOLOGY</a>
       </div>
     </div>
 
