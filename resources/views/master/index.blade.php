@@ -9,7 +9,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo/logo-kalapatec-dark.png" rel="icon">
+  <link href="assets/img/logo/logo-kalender-main.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
