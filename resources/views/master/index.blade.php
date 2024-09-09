@@ -41,7 +41,7 @@
   <button class="open-button">
     <row>
         <col><a href="https://api.whatsapp.com/send?phone=6285176962127&text=Halo,%20Gracia%20Pelita%20Abadi!">
-          <img src="assets/img/logo/wa-logo.png" alt="" width="90%" style="margin-left: 30%;"></a>
+          <img src="assets/img/logo/wa-logo-1.png" alt="" width="60%" style="margin-left: 60%; margin-top: -80%;"></a>
         </coll>
     </row>
     <!-- <row >
