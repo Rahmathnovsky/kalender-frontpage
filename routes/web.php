@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebsiteController;
+use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,5 +18,5 @@ use App\Http\Controllers\WebsiteController;
 Route::get('/', [WebsiteController::class, 'index']);
 Route::post('/registration-phone', [WebsiteController::class, 'registrationPhone'])->name('registration-phone');
 
-Route::get('/registration-form', [WebsiteController::class, 'formRegistration'])->name('registration-form');
-Route::post('/submit', [WebsiteController::class, 'formRegistrationSubmit'])->name('registration-form-submit');
+Route::get('/registration-form', [FormController::class, 'formRegistration'])->name('registration-form');
+Route::post('/submit', [FormController::class, 'formRegistrationSubmit'])->name('registration-form-submit');

@@ -21,17 +21,12 @@ class WebsiteController extends Controller
             DB::beginTransaction();
             PhoneNumber::create($request->all());
             DB::commit();
-            Alert::success('Success', 'Post created successfully');
+            Alert::success('Terimakasih Sobat', 'Tunggu Whatsapp Dari ALEN ya Sobat');
             return redirect()->back();
         } catch(\Throwable $th){
             DB::rollback();
-            Alert::error('Error', 'Failed to create post');
+            Alert::error('Yahh Gagal', 'Coba Kembali Dong Sobat ALEN');
             return redirect()->back();
         }
-    }
-
-    public function formRegistration(Request $request)
-    {
-        return view('front-page.form.index');
     }
 }

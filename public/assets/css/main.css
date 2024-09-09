@@ -100,7 +100,7 @@ h6 {
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #205299;
   font-size: 15px;
   padding: 8px 25px;
   margin: 0 0 0 30px;
@@ -112,7 +112,7 @@ h6 {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: #F6CD1E;
 }
 
 @media (max-width: 1200px) {
@@ -587,14 +587,14 @@ h6 {
   background-color: color-mix(in srgb, var(--accent-color), transparent 97%);
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 85%);
   font-size: 16px;
-  color: var(--accent-color);
+  color: #F6CD1E;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .social-links a:hover {
   color: var(--contrast-color);
-  background-color: var(--accent-color);
+  background-color: #205299;
 }
 
 .footer h4 {
@@ -838,7 +838,7 @@ section,
 
 .hero .btn-get-started {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #F6CD1E;
   font-family: var(--heading-font);
   font-weight: 500;
   font-size: 16px;
@@ -860,7 +860,7 @@ section,
 
 .hero .btn-get-started:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: #205299;
   box-shadow: 0 8px 28px color-mix(in srgb, var(--accent-color), transparent 55%);
 }
 
