@@ -71,7 +71,7 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo/logo-kalender-main.png" alt="" style="width: 70px;">
-        <h1 class="sitename" style="color: #F6CD1E;">KALENDER</h1>
+        <h1 class="sitename" style="color: #205299;">KALENDER</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
