@@ -40,7 +40,7 @@
 
   <button class="open-button">
     <row>
-        <col><a href="https://api.whatsapp.com/send?phone=6285176962127&text=Halo,%20Gracia%20Pelita%20Abadi!">
+        <col><a href="https://api.whatsapp.com/send?phone=6281299995925&text=Halo,%20ALEN!">
           <img src="assets/img/logo/wa-logo-1.png" alt="" width="60%" style="margin-left: 60%; margin-top: -80%;"></a>
         </coll>
     </row>
