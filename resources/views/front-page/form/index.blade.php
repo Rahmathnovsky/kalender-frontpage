@@ -56,7 +56,7 @@
           <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <img src="assets/img/logo/logo-kalender-main.png" alt="" style="width: 70px;">
-            <h1 class="sitename" style="color: #4154f1;">KALENDER</h1>
+            <h1 class="sitename" style="color: #205299;">KALENDER</h1>
           </a>
 
           <nav id="navmenu" class="navmenu">
@@ -130,8 +130,8 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="{{ route('home') }}">KALENDER</a></li>
-            <li class="current">Halaman Pendaftaran</li>
+            <li><a href="{{ route('home') }}" style="color: #205299;">KALENDER</a></li>
+            <li class="current" style="color: #F6CD1E">Halaman Pendaftaran</li>
           </ol>
         </div>
       </nav>
@@ -153,7 +153,7 @@
                   </a>
                 </div>
                 <!-- /Logo -->
-              <center><h4 class="mb-1 pt-2">Form Pendaftaran 🚀</h4>
+              <center><h4 class="mb-1 pt-2" style="color: #205299;">FORM PENDAFTARAN 🚀</h4>
                 <p class="mb-4">Isi datanya dengan lengkap ya, kami perlu<br> mengenal diri mu dengan lebih baik.</p></center>
 
                 <form id="formAuthentication" class="mb-3" action="{{ route('registration-form-submit') }}" method="POST">
@@ -247,26 +247,43 @@
 
   <footer id="footer" class="footer">
 
+    <!-- <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="{{ route('home') }}" class="d-flex align-items-center">
-            <span class="sitename" style="color: #4154f1;">KALENDER</span>
+            <span class="sitename" style="color: #F6CD1E;">KALENDER</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>Menara Rajawali Lt.10, Setiabudi,<br>
+            <p style="color: #205299;">Menara Rajawali Lt.10, Setiabudi,<br>
               Jakarta Selatan, DKI Jakarta, Indonesia.</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+62 813 8499 5069</span></p>
-            <p><strong>Email:</strong> <span>recruitment@kalapatec.id</span></p>
-            <p><strong>Email:</strong> <span>bd.team@kalapatec.id</span></p>
+            <p style="color: #205299;"><strong style="color: #F6CD1E;">Phone:</strong> <span>+62 813 8499 5069</span></p>
+            <p style="color: #205299;"><strong style="color: #F6CD1E;">Email:</strong> <span>recruitment@kalapatec.id</span></p>
+            <p style="color: #205299;"><strong style="color: #F6CD1E;">Email:</strong> <span>bd.team@kalapatec.id</span></p>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4 style="color: #4154f1;">Useful Links</h4>
+          <h4 style="color: #F6CD1E;">Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy Policy</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms & Conditions</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" style="color: #205299;">Privacy Policy</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" style="color: #205299;">Terms & Conditions</a></li>
           </ul>
         </div>
 
@@ -280,8 +297,8 @@
         </div> -->
 
         <div class="col-lg-4 col-md-12">
-          <h4 style="color: #4154f1;">Follow Us</h4>
-          <p>KALENDER Merupakan program learning & development yang dikembangkan oleh PT. Kalapa Teknologi Putera. Untuk Informasi lebih lanjut langsung Follow dan Pantengin Social Media kita yaa!</p>
+          <h4 style="color: #F6CD1E;">Follow Us</h4>
+          <p style="color: #205299;">KALENDER Merupakan program learning & development yang dikembangkan oleh PT. Kalapa Teknologi Putera. Untuk Informasi lebih lanjut langsung Follow dan Pantengin Social Media kita yaa!</p>
           <div class="social-links d-flex">
             <a href="https://www.instagram.com/kalapatec.id"><i class="bi bi-instagram"></i></a>
             <a href="https://facebook.com/kalapatec.id"><i class="bi bi-facebook"></i></a>
@@ -293,13 +310,13 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename" style="color: #4154f1;">KALENDER</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright 2024</span> <strong class="px-1 sitename" style="color: #F6CD1E;">KALENDER</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Business by <a href="https://Kalapatec.id/">Kalapa Technology</a>
+        Business by <a href="https://Kalapatec.id/" style="color: #205299;">KALAPA TECHNOLOGY</a>
       </div>
     </div>
 

@@ -25,10 +25,10 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         <div class="text-center mb-4">
                           <img src="assets/img/logo/logo-kalender-main.png" alt="" style="width: 70px;">
-                          <h3 class="mb-2">Join KALENDER</h3>
-                          <p>or create a free account</p>
+                          <h3 class="mb-2">Bergabung Bersama KALENDER</h3>
+                          {{-- <p>or create a free account</p> --}}
                         </div>
-                        <p>Masukan nomor Whatsapp kamu, dan kami akan memberikan kejutan yang tidak akan bisa kamu bayangkan!</p>
+                        <p>Masukan nomor Whatsapp ya, biar ALEN bisa ngabarin kamu :)</p>
                         <form id="enableOTPForm" method="POST" action="{{ route('registration-phone') }}" class="row g-3">
                             @csrf
                           <div class="col-12">
