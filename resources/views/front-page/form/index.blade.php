@@ -199,7 +199,7 @@
                       </label>
                     </div>
                   </div> --}}
-                  <button class="btn btn-primary d-grid w-100">Daftar</button>
+                  <button class="btn btn-primary d-grid w-100" style="background-color: #205299;">Daftar</button>
                 </form>
 
                 <!-- <p class="text-center">
