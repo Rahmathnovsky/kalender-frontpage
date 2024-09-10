@@ -6,12 +6,12 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up"><a style="color: #F6CD1E;">KA</a><a style="color: #205299">lapa</a> <a style="color: #F6CD1E;">LE</a><a style="color: #205299">arning</a> <a style="color: #F6CD1E;">&</a> <a style="color: #F6CD1E;">D</a><a style="color: #205299">evelopment Cent</a><a style="color: #F6CD1E;">ER</a></h1>
+            <h1 data-aos="fade-up"><a style="color: #F6CD1E; background-color: #B61D1B;">KA</a><a style="color: #205299">lapa</a> <a style="color: #F6CD1E; background-color: #B61D1B;">LE</a><a style="color: #205299">arning</a> <a style="color: #F6CD1E; background-color: #B61D1B;">&</a> <a style="color: #F6CD1E; background-color: #B61D1B;">D</a><a style="color: #205299">evelopment Cent</a><a style="color: #F6CD1E; background-color: #B61D1B;">ER</a></h1>
             <p data-aos="fade-up" data-aos-delay="100" style="color: #223a66;">Tingkatkan potensi dan raih kesuksesan bersama KALENDER melalui program pelatihan yang disediakan serta didukung oleh para expert. KALENDER membantu persiapanmu dalam dunia pekerjaan yang profesional.</p>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
               <a data-bs-toggle="modal" data-bs-target="#enableOTP" class="btn-get-started">Cek KALENDER Kamu Yuk</a>
               {{-- <i class="bi bi-arrow-right"></i> --}}
-              <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              {{-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> --}}
             </div>
 
             <!-- Start Enable OTP -->
@@ -64,7 +64,7 @@
 
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-            <img src="assets/img/vector/dashboard.png" class="img-fluid animated" alt="">
+            <img src="assets/img/vector/dashboard-2.png" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>

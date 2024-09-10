@@ -53,7 +53,7 @@
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-          <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <img src="assets/img/logo/logo-kalender-main.png" alt="" style="width: 70px;">
             <h1 class="sitename" style="color: #4154f1;">KALENDER</h1>
@@ -62,7 +62,7 @@
           <nav id="navmenu" class="navmenu">
             <ul>
               <!-- <li><a href="#hero" class="active">Home<br></a></li> -->
-              <a href="index.html" class="btn-getstarted">Back</a>
+              <a href="{{ route('home') }}" class="btn-getstarted">Back</a>
               <!-- <li><a href="#services">Services</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#team">Team</a></li>
@@ -130,7 +130,7 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">KALENDER</a></li>
+            <li><a href="{{ route('home') }}">KALENDER</a></li>
             <li class="current">Halaman Pendaftaran</li>
           </ol>
         </div>
@@ -148,7 +148,7 @@
               <div class="card-body">
                 <!-- Logo -->
                 <div class="app-brand mb-4 mt-2">
-                  <a href="index.html" class="app-brand-link gap-2">
+                  <a href="{{ route('home') }}" class="app-brand-link gap-2">
                     <center><span class="app-brand-text demo text-body fw-bold ms-1"><img src="assets/img/logo/logo-kalender-main.png" alt="" style="width: 90px;"></span></center>
                   </a>
                 </div>
@@ -190,7 +190,7 @@
                     </div>
                   </div>
 
-                  <div class="mb-3">
+                  {{-- <div class="mb-3">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" id="terms-conditions" name="terms" />
                       <label class="form-check-label" for="terms-conditions">
@@ -198,7 +198,7 @@
                         <a href="javascript:void(0);">privacy policy & terms</a>
                       </label>
                     </div>
-                  </div>
+                  </div> --}}
                   <button class="btn btn-primary d-grid w-100">Daftar</button>
                 </form>
 
@@ -247,27 +247,10 @@
 
   <footer id="footer" class="footer">
 
-    <!-- <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center text-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="d-flex align-items-center">
+          <a href="{{ route('home') }}" class="d-flex align-items-center">
             <span class="sitename" style="color: #4154f1;">KALENDER</span>
           </a>
           <div class="footer-contact pt-3">

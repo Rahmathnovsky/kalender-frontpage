@@ -15,7 +15,7 @@ use App\Http\Controllers\FormController;
 |
 */
 
-Route::get('/', [WebsiteController::class, 'index']);
+Route::get('/home', [WebsiteController::class, 'index'])->name('home');
 Route::post('/registration-phone', [WebsiteController::class, 'registrationPhone'])->name('registration-phone');
 
 Route::get('/registration-form', [FormController::class, 'formRegistration'])->name('registration-form');
