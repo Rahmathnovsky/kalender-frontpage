@@ -168,7 +168,7 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="{{ route('home') }}" class="d-flex align-items-center">
-            <span class="sitename" style="color: #F6CD1E;">KALENDER</span>
+            <strong><span class="sitename" style="color: #F6CD1E;">KALENDER</span></strong>
           </a>
           <div class="footer-contact pt-3">
             <p style="color: #205299;">Menara Rajawali Lt.10, Setiabudi,<br>

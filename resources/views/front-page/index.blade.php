@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up"><a style="color: #F6CD1E; background-color: #B61D1B;">KA</a><a style="color: #205299">lapa</a> <a style="color: #F6CD1E; background-color: #B61D1B;">LE</a><a style="color: #205299">arning</a> <a style="color: #F6CD1E; background-color: #B61D1B;">&</a> <a style="color: #F6CD1E; background-color: #B61D1B;">D</a><a style="color: #205299">evelopment Cent</a><a style="color: #F6CD1E; background-color: #B61D1B;">ER</a></h1>
+            <h1 data-aos="fade-up" style="color: #205299;">KALAPA LEARNING & DEVELOPMENT CENTER</h1>
             <p data-aos="fade-up" data-aos-delay="100" style="color: #223a66;">Tingkatkan potensi dan raih kesuksesan bersama KALENDER melalui program pelatihan yang disediakan serta didukung oleh para expert. KALENDER membantu persiapanmu dalam dunia pekerjaan yang profesional.</p>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
               <a data-bs-toggle="modal" data-bs-target="#enableOTP" class="btn-get-started">Cek KALENDER Kamu Yuk</a>
@@ -36,21 +36,21 @@
                             <div class="input-group">
                               <span class="input-group-text">ID (+62)</span>
                               <input
-                                type="text"
+                                type="number"
                                 id="modalEnableOTPPhone"
                                 name="phone_number"
                                 class="form-control phone-number-otp-mask"
-                                placeholder="Enter your mobile number" />
+                                placeholder="Nomor Whatsapp" />
                             </div>
                           </div>
                           <div class="col-12">
-                            <button type="submit" class="btn btn-primary me-sm-3 me-1">Submit</button>
+                            <button type="submit" class="btn btn-primary me-sm-3 me-1">Kirim</button>
                             <button
                               type="reset"
                               class="btn btn-label-secondary"
                               data-bs-dismiss="modal"
                               aria-label="Close">
-                              Cancel
+                              Batalkan
                             </button>
                           </div>
                         </form>
