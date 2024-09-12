@@ -83,7 +83,7 @@
                   <h4 style="color: #205299;">Bangun Masa Depan <br>Mulai Dari Kenali Diri Sendiri</h4>
                   <p class="mb-3">Belajar pahami diri sendiri untuk membangun personal branding kamu</p>
                   <time style="color: #2C66FF; margin-top: -10px;" datetime="2024-09-16T20:00"><strong>SENIN, 16 SEPT 2024. YOGYAKARTA</strong></time>
-                  <a data-bs-toggle="modal" data-bs-target="#" class="btn btn-main" style="margin-bottom: -40px;">Daftar Kelas</a>
+                  <a href="{{ route('registration-form') }}" class="btn btn-main" style="margin-bottom: -40px;">Daftar Kelas</a>
                 </center>
               </div>
 
@@ -96,7 +96,7 @@
                   <h4 style="color: #205299;">Hadapi Interview Kerja Dengan Rasa Percaya Diri</h4>
                   <p class="mb-3">Kunci untuk membuat kesan yang baik saat menjalani proses interview</p>
                   <time class="text-danger" datetime="2024-09-16T20:00"><strong>SEGERA HADIR</strong></time><br>
-                  <a data-bs-toggle="modal" data-bs-target="#" class="btn btn-main" style="margin-bottom: -40px;">Daftar Kelas</a>
+                  <a data-bs-toggle="modal" data-bs-target="#enableOTP" class="btn btn-main" style="margin-bottom: -40px;">Daftar Kelas</a>
                 </center>
               </div>
 
@@ -110,7 +110,7 @@
                     <br>
                   <p class="mb-3">Belajar membuat Website <br> mulai dari nol</p>
                   <time class="text-danger" datetime="2024-09-16T20:00"><strong>SEGERA HADIR</strong></time><br>
-                  <a data-bs-toggle="modal" data-bs-target="#" class="btn btn-main" style="margin-bottom: -40px;">Daftar Kelas</a>
+                  <a data-bs-toggle="modal" data-bs-target="#enableOTP" class="btn btn-main" style="margin-bottom: -40px;">Daftar Kelas</a>
                 </center>
               </div>
 
