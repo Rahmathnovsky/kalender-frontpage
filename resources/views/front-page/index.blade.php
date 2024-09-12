@@ -143,38 +143,44 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          {{-- <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card" data-bs-toggle="modal" data-bs-target="#classONE">
+              <img src="assets/img/skills/people-development.png" alt="">
+              <h3 style="color: #205299">People Development</h3>
+            </div>
+          </div> --}}
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#">
               <img src="assets/img/skills/people-development.png" alt="">
               <h3 style="color: #205299">People Development</h3>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="card" data-bs-toggle="modal" data-bs-target="#classONE">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#">
               <img src="assets/img/skills/copy-writing.png" alt="">
               <h3 style="color: #F6CD1E">Copywriting</h3>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="card" data-bs-toggle="modal" data-bs-target="#classONE">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#">
               <img src="assets/img/skills/personal-branding.png" alt="">
               <h3 style="color: #205299">Personal Branding</h3>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="card" data-bs-toggle="modal" data-bs-target="#classONE">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#">
               <img src="assets/img/skills/public-speaking.png" alt="">
               <h3 style="color: #F6CD1E">Public Speaking</h3>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="card" data-bs-toggle="modal" data-bs-target="#classONE">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#">
               <img src="assets/img/skills/negotiation.png" alt="">
               <h3 style="color: #205299">Negotiation</h3>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="card" data-bs-toggle="modal" data-bs-target="#classONE">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#">
               <img src="assets/img/skills/digital-marketing.png" alt="">
               <h3 style="color: #F6CD1E">Digital Marketing</h3>
             </div>
