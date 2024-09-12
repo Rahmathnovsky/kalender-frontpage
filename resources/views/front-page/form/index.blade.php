@@ -273,7 +273,7 @@
           <div class="footer-contact pt-3">
             <p style="color: #205299;">Menara Rajawali Lt.10, Setiabudi,<br>
               Jakarta Selatan, DKI Jakarta, Indonesia.</p>
-            <p style="color: #205299;"><strong style="color: #F6CD1E;">Phone:</strong> <span>+62 813 8499 5069</span></p>
+            <p style="color: #205299;"><strong style="color: #F6CD1E;">Phone:</strong> <span>+62 812 9999 5925</span></p>
             <p style="color: #205299;"><strong style="color: #F6CD1E;">Email:</strong> <span>recruitment@kalapatec.id</span></p>
             <p style="color: #205299;"><strong style="color: #F6CD1E;">Email:</strong> <span>bd.team@kalapatec.id</span></p>
           </div>
